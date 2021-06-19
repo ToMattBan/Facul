@@ -1,4 +1,12 @@
-# Hermanoemos
+# Trabalho em React Native - 5º Semestre
+
+Trabalho realizado em conjunto com Julia B Castelain (https://github.com/buliscastellain).
+
+O projeto é voltado a consumo de APIs com ReactNative, onde comparamos os preços dos jogos na Steam Brasileira e na Steam Argentina.
+
+Projeto realizado entre os dias 21 de Maio e 4 de Junho de 2021
+
+
 
 ## To run:
 ```
