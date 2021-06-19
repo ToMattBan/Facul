@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<title>Elementos Dinâmicos</title>
+	<meta charset="utf-8">
+	<script language=javascript type="text/javascript" src="scripts/Exercício29.js"></script>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<div class="o-wrapper">
+
+		<div><button type="button" onclick="adicionaNum()">Colocar Números</button></div>
+
+		<div class="o-layout _pv" id=colocarElementos></div>
+
+		<div><button type="button" class="_btnRemover _bigButton" onclick="RemoverNum()">Remover Último Número</button></div>
+
+		<div class="o-layout__item metade _fz20 _pv"> 
+			Por qual número deseja multiplicar? » <input id=NumDesejado class="input--numeros _tac" type="number"> 
+		</div> 
+
+		<div><button type="button" onclick="MultiplicaNum()">Multiplicar</button></div>
+
+		<div id=respostas class="_fz20 _pv"></div>
+
+	</div>
+</body>
+
+</html>

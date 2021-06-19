@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<title>Elementos Dinâmicos</title>
+	<meta charset="utf-8">
+	<script language=javascript type="text/javascript" src="scripts/Exercício26.js"></script>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<div class="o-wrapper">
+
+		<div><button type="button" onclick="adicionaNome()">Colocar Nomes</button></div>
+
+		<div class="o-layout _pv" id=colocarElementos></div>
+
+		<div><button type="button" class="_btnRemover" onclick="RemoverNome()">Remover Último Nome</button></div>
+
+		<div class="o-layout__item metade _fz20 _pv"> 
+			Nome que deseja procurar » <input id=NomeDesejado class="input--nomes _tac" type="text"> 
+		</div> 
+
+		<div><button type="button" onclick="ProcuraNome()">Procurar</button></div>
+
+		<div id=respostas class="_fz20 _pv"></div>
+
+	</div>
+</body>
+
+</html>
