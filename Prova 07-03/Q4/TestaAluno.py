@@ -1,0 +1,23 @@
+from Aluno import Aluno
+
+if __name__ == '__main__':
+    Alu1 = Aluno('Francisco', 'ETS', 3)
+    Alu1.estudar(5)
+    Alu1.dormir(3)
+    Alu1.estudar(8)
+    Alu1.dormir(7)
+    Alu1.estudar(13)
+    Alu1.dormir(23)
+    Alu1.estudar(2)
+    Alu1.dormir(13)
+    Alu1.estudar(1)
+    Alu1.dormir(7)
+    Alu1.estudar(3)
+    Alu1.dormir(1)
+    Alu1.estudar(12)
+    Alu1.dormir(5)
+    Alu1.estudar(7)
+    Alu1.dormir(6)
+    Alu1.estudar(8)
+    Alu1.dormir(1)
+    print(Alu1._tempoSemDormir)
