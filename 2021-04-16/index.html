@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/_ajax.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+    <div class="page-periodicTable c-modal modal-close">
+        <div class="wrapper">
+            <div class="periodic-table c-family" family="all">
+                <div class="overlay"></div>
+
+                <div class="placeholder lanthanoid c3 r6">
+                    <div class="square">57-71</div>
+                </div>
+
+                <div class="placeholder actinoid c3 r7">
+                    <div class="square">89-103</div>
+                </div>
+
+                <div class="gap c3 r8"></div>
+
+                <div class="key">
+                    <div class="row"><label class="family-filter Não_Metal" for="Não_Metal">Não Metais</label></div>
+                    <div class="row"><label class="family-filter Gás_Nobre" for="Gás_Nobre">Gases Nobre</label></div>
+                    <div class="row"><label class="family-filter Metal_Alcalino" for="Metal_Alcalino">Metais Alcalinos</label></div>
+                    <div class="row"><label class="family-filter Metal_Alcalino-terroso" for="Metal_Alcalino-terroso">Metais Alcalino-terrosos</label></div>
+                    <div class="row"><label class="family-filter Metal_de_Transição" for="Metal_de_Transição">Metais de Transição</label></div>
+                    <div class="row"><label class="family-filter Semimetal" for="Semimetal">Semimetais</label></div>
+                    <div class="row"><label class="family-filter Outros_Metais" for="Outros_Metais">Outros Metais</label></div>
+                    <div class="row"><label class="family-filter Lantanídeos" for="Lantanídeos">Lantanídeos</label></div>
+                    <div class="row"><label class="family-filter Actinídeos" for="Actinídeos">Actinídeos</label></div>
+                    <div class="row"><label class="family-filter Halogênio" for="Halogênio">Halogênios</label></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup">
+            <div class="popup-inner">
+                <div class="close-popup-button">X</div>
+                <div class="content-img">
+                    <img src="" alt="" />
+                </div>
+                <div class="content-text">
+                    <h4 class="data_family c-name"></h4>
+                    <h5 class="data_family c-famName"></h5>
+                    <p class="data_desc"></p>
+                    <p class="data_uses"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
