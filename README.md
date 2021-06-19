@@ -1,4 +1,4 @@
-# Facul-1S_Atividade_D1
+# Atividade D1 - 1º Semestre
 
 Projeto feito em colaboração com Júlia B. Castelain (https://github.com/buliscastellain)
 
