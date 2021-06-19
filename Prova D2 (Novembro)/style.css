@@ -1,0 +1,23 @@
+.white{
+    color: white;
+}
+
+.bgred{
+    background-color: red;
+}
+
+.bgyellow{
+    background-color: yellow;
+}
+
+.bgblue{
+    background-color: blue;
+}
+
+.bgblack{
+    background-color: black;
+}
+
+._dn{
+    display: none;
+}
