@@ -40,6 +40,16 @@ function Converter() {
 
 
 	document.getElementById('respostas').innerHTML = str;
-	document.getElementById('provaReal').innerHTML = "<a href=" + "http://www.profcardy.com/cardicas/romano.php?arabico=" + numVdd + "> Prova Real </a>";
-
+	//document.getElementById('provaReal').innerHTML = "<a href=" + "http://www.profcardy.com/cardicas/romano.php?arabico=" + numVdd + "> Prova Real </a>";
+	document.getElementById('provaReal').innerHTML = '<a href="#" id="prova_real"> Prova Real </a>';
+	
+	document.querySelector('#prova_real').addEventListener('click', function() {
+		var iframe = document.createElement('iframe');
+			iframe.setAttribute('src', "http://www.profcardy.com/cardicas/romano.php?arabico=" + numVdd );
+			iframe.setAttribute('width', "100%" );
+			iframe.setAttribute('height', "200px" );
+		
+		console.log(iframe);
+		document.getElementById('provaReal').append(iframe);
+	})
 }
