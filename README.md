@@ -9,3 +9,6 @@ No projeto do dia 21/05/2021 foi utilizado uma API de reconhecimento facial (Rec
 No projeto do dia 16/04/2021, utilizando uma API, eu desenvolvi uma tabela periódica. Ao selecionar um elemento veremos uma foto, seu nome, descrição e outros detalhes. É possível também filtar usando a linha superior da tabela. Este projeto foi realizado individualmente.
 
 Projetos realizados entre Julho e Dezembro de 2020
+
+Live de todas as aulas aqui:
+https://tomattban.github.io/Facul-5S_Jquery/
