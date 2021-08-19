@@ -9,3 +9,6 @@ Os arquivos html e os estilos css também foram desenvolvidos por mim.
 Ps.: Dentro da pasta "25 ao 34 - Vetores e Matrizes" há dois arquivos "Fila.html" e "Pilha.html" que utilizam Bootstrap. Estes dois arquivos foram desenvolvidos pelo professor para servir de exemplo para nós fazermos o resto dos exercícios
 
 Atividades realizadas entre Agosto e Dezembro de 2019
+
+Live:
+https://tomattban.github.io/Facul-2S_Atividades_JS/
