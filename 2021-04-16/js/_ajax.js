@@ -105,7 +105,7 @@ $(function() {
                 success: function(success) {
                     $jsonElements = success;
 
-                    $.each($elementList, function(i, val) {
+                    $.each($jsonElements, function(i, val) {
                         return addElement(val);
                     });
 
