@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<title>Fila de Pessoas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<script language=javascript type="text/javascript" src="scripts/Fila.js"></script>
+</head>
+
+<body onLoad="listaPessoas()">
+	<div class="container" style="padding-top: 20px">
+		<div class="row">
+			<div class="col-12">
+				<form class="form-control bg-faded">
+					<div class="col-12">
+						<h1>Fila de Pessoas</h1>
+					</div>
+					<div class="col-12">
+						<div class="form-group row" id="idAdicionaBloco">
+							<label for="nomePessoa" class="col-1 col-form-label">Nome</label>
+							<input class="col-4 form-control" type="text" id="nomePessoa"
+								placeholder="Nome da Pessoa a inserir">
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-group">
+							<button type="button" class="btn btn-success" id="insere"
+								onclick="inserePessoa()">Insere</button>
+							<button type="button" class="btn btn-danger" id="apaga"
+								onclick="removePessoa()">Remove</button>
+							<button type="button" class="btn btn-warning" id="limpa"
+								onclick="limpaPessoas()">Limpa</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="alert alert-info">
+								<strong>Informação!</strong>
+								<input class="form-control" type="text" id="informacao"
+									placeholder="A fila de pessoas está vazia!!!" readonly>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="table-responsive">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0"
+								class="table table-hover table-striped">
+								<thead>
+									<tr>
+										<th>Pessoas</th>
+									</tr>
+								</thead>
+								<tbody id=listaRepeticao>
+									<!-- Aqui vamos criar linhas dinamicamente!  
+								<tr>
+									<td>Elementos...</td>
+								</tr>
+							 -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

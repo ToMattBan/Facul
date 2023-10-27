@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<title>Pilha de Caixas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<script language=javascript type="text/javascript" src="scripts/Pilha.js"></script>
+</head>
+
+<body onLoad="listaCaixas()">
+	<div class="container" style="padding-top: 20px">
+		<div class="row">
+			<div class="col-12">
+				<form class="form-control bg-faded">
+					<div class="col-12">
+						<h1>Pilha de Caixas</h1>
+					</div>
+					<div class="col-12">
+						<div class="form-group row" id="idAdicionaBloco">
+							<label for="numCaixa" class="col-1 col-form-label">Número da Caixa</label>
+							<input class="col-4 form-control" type="number" id="numCaixa"
+								placeholder="Número da Caixa a empilhar">
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-group">
+							<button type="button" class="btn btn-success" id="insere"
+								onclick="insereCaixa()">Insere</button>
+							<button type="button" class="btn btn-danger" id="apaga"
+								onclick="removeCaixa()">Remove</button>
+							<button type="button" class="btn btn-warning" id="limpa"
+								onclick="limpaCaixas()">Limpa</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="alert alert-info">
+								<strong>Informação!</strong>
+								<input class="form-control" type="text" id="informacao"
+									placeholder="A pilha de caixas está vazia!!!" readonly>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="table-responsive">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0"
+								class="table table-hover table-striped">
+								<thead>
+									<tr>
+										<th>Caixas</th>
+									</tr>
+								</thead>
+								<tbody id=listaRepeticao>
+									<!-- Aqui vamos criar linhas dinamicamente!  
+								<tr>
+									<td>Elementos...</td>
+								</tr>
+							 -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

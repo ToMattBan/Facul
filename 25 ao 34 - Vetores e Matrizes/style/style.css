@@ -1,0 +1,124 @@
+body {
+    background-color: #e4e4e4;
+}
+
+
+/* Botões e seus estilos */
+button {
+    border-radius: 10px;
+    background-color: rgb(231, 186, 37);
+    color: black;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+}
+
+._bigButton{
+    height: 60px;
+}
+
+._btnRemover{
+    background-color: red;
+}
+
+
+/* Inputs e seus estilos */
+select,
+input{
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+
+.input--nomes{
+    width: 300px;
+}
+
+.input--numeros{
+    width: 80px;
+}
+
+
+/* Estilos de fonte */
+._fz20{
+    font-size: 20px;
+}
+
+._tdo{
+    text-decoration: overline;
+}
+
+
+/* Alinhamentos */
+._tal{
+    text-align: left;
+}
+
+._tar{
+    text-align: right;
+}
+
+._tac{
+    text-align: center;
+}
+
+
+/* Margens e distribuição em grades */
+.o-wrapper {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.o-layout {
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+
+.o-layout__item {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.metade {
+    width: 49%;
+}
+
+.terco{
+    width: 32%;
+}
+
+
+/* Espaçamentos */
+._pv{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+._mv{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+._pvxxs{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+._m0{
+    margin: 0;
+}
+
+/* Modo de visualização */
+._dn{
+    display: none;
+}
