@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+body {
+  background-image: url("images/bg.jpeg");
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+}
+
+.loginContainer {
+  background-color: #FFFFFF;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border-radius: 1.5em;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .loginContainer {
+      width: 40%;
+  }
+}
+
+.loginContainer img {
+  margin-top: 24px;
+  width: 80%;
+}
+
+@media (min-width: 1000px) {
+  .loginContainer img {
+      width: 70%;
+  }
+}
+
+.loginContainer h1 {
+  width: 100%;
+}
+
+.loginContainer h3 {
+  width: 100%;
+  margin: 0;
+}
+
+.loginContainer .perfilPick {
+  width: 30% !important;
+  margin: 0 !important;
+}
+
+.loginContainer .form {
+  padding: 32px 0 24px 0;
+  width: 90%;
+}
+
+.loginContainer .form input {
+  width: 80%;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.18);
+  margin-bottom: 12px;
+}
+
+.loginContainer .form input:focus, .input:focus {
+  border: 2px solid rgb(96, 176, 244);
+}
+
+.loginContainer .form button {
+  cursor: pointer;
+  border-radius: 5em;
+  font-weight: 700;
+  background: rgb(96, 176, 244);
+  color: white;
+  border: 0;
+  padding: 10px 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+.loginContainer .form button:hover {
+  background: rgb(144, 197, 243);
+  color: black;
+}
+
+.loginContainer .form p:hover {
+  cursor: pointer;
+  color: rgb(96, 176, 244);
+}
+
+.loginContainer a {
+  color: black;
+  text-decoration: none;
+}
+
+.form button {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.fieldsPerfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.fieldsPerfil span {
+  width: 30%;
+  text-align: left;
+}
+
+.fieldsPerfil input {
+  margin: 0 !important;
+}
+
+
+.usersList {
+  background-color: #FFFFFF;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  border-radius: 1.5em;
+  text-align: center;
+}
+
+.usersList h1 {
+  width: 100%;
+}
+
+.usersList .lista {
+  padding: 16px 16px;
+  width: auto;
+}
+
+.usersList .lista .campos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.usersList .lista .campos .span {
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+}
+
+.usersList .lista input {
+  color: rgb(95, 124, 138);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 4px 12px;
+  border-radius: 20px;
+  outline: none;
+  width: 90%;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.18);
+}
+
+.usersList .lista .buttons {
+  padding-top: 12px;
+}
+
+.usersList .lista .buttons button {
+  cursor: pointer;
+  border-radius: 5em;
+  font-weight: 700;
+  background: rgb(96, 176, 244);
+  color: white;
+  border: 0;
+  padding: 8px 24px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.usersList .lista .buttons button:hover {
+  background: rgb(144, 197, 243);
+  color: black;
+}
+
+.avatarsCad {
+  width: 30% !important;
+  padding: 0 4px;
+  filter: opacity(50%);
+}
+
+.avatarsSelected {
+  filter: none;
+} 
+
+.whatIDo {
+  margin-top: -10px;
+}

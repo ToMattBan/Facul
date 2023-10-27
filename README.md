@@ -1,9 +1,10 @@
-# Aulas de Python - 3º Semestre
+# Projeto React - 3º Semestre
 
-Os projetos que estão nesse repositório foram todos feitos em sala, com a interação direta da professora.
+Projeto desenvolvido em duas partes:
+Parte foi desenvolvido em sala junto com o professor e outra parte foi desenvolvido como extra-curricular.
 
-Passamos pelo básico de Python, desde funções simple até orientação a objetos.
+Cada aluno teve seu tema para trabalhar e o professor foi nos guiando.
 
-Os arquivos estão no modelo [mês]-[dia] para melhor organização
+Neste projeto é trabalhado tanto o front-end como o back-end e a sua integração um com o outro.
 
-Aulas realizadas entre Março e Junho de 2020
+PRojeto realizado entre Março e Junho de 2020
