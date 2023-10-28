@@ -1,6 +1,6 @@
 function Eu() {
-    var myName = "Cleyton";
-    var myAge = "18 anos";
+    var myName = "ToMatt";
+    var myAge = "xx anos";
 
     document.getElementById('Euzis').innerText = "Olá, meu nome é » " + myName +
         " « e minha idade é de » " + myAge + " « completos!";
